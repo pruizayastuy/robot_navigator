@@ -8,7 +8,7 @@ from rclpy.executors import MultiThreadedExecutor
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 from turtle_navigator.msg import RobotState, TargetPose
-from turtle_navigator.srv import AddWaypoint, ClearWaypoints
+from turtle_navigator.srv import AddWaypoint, ClearWaypoints, SetControlParams
 
 import math
 from collections import deque
@@ -16,6 +16,12 @@ from collections import deque
 class NavigatorController(Node):
     def __init__(self):
         super().__init__('navigator_controller')
+        
+        # Configuración de control ajustable
+        self.linear_gain = 0.8     # Ganancia para velocidad lineal
+        self.angular_gain = 4.0    # Ganancia para velocidad angular
+        self.max_speed = 1.5       # Velocidad máxima (m/s)
+        self.target_tolerance = 0.2  # Tolerancia para considerar objetivo alcanzado (m)
         
         # Callback groups para ejecución concurrente
         self.cb_group_service = MutuallyExclusiveCallbackGroup()
@@ -57,6 +63,12 @@ class NavigatorController(Node):
             self.clear_waypoints_callback,
             callback_group=self.cb_group_service
         )
+        self.set_params_srv = self.create_service(
+            SetControlParams,
+            '/turtle_navigator/set_control_params',
+            self.set_params_callback,
+            callback_group=self.cb_group_service
+        )
         
         # Timer para control de movimiento
         self.control_timer = self.create_timer(
@@ -65,11 +77,12 @@ class NavigatorController(Node):
             callback_group=self.cb_group_timer
         )
         
-        self.get_logger().info('Navigator controller iniciado')
+        self.get_logger().info('Controlador de navegación iniciado')
+        self.get_logger().info(f'Parámetros iniciales: Linear={self.linear_gain}, Angular={self.angular_gain}, MaxSpeed={self.max_speed}')
 
     def target_callback(self, msg):
-        """Handle new target poses from topic"""
-        self.get_logger().info(f'Objetivo directo recibido: ({msg.x}, {msg.y})')
+        """Maneja nuevos objetivos recibidos por topic"""
+        self.get_logger().info(f'Objetivo directo recibido: ({msg.x:.2f}, {msg.y:.2f})')
         self.waypoints.clear()
         self.waypoints.append((msg.x, msg.y))
         if not self.navigating:
@@ -77,24 +90,24 @@ class NavigatorController(Node):
             self.navigating = True
 
     def pose_callback(self, msg):
-        """Handle turtle's current pose"""
+        """Actualiza la pose actual de la tortuga"""
         self.current_pose = msg
-        # Publicar estado actual
-        state_msg = RobotState()
-        state_msg.current_x = msg.x
-        state_msg.current_y = msg.y
-        state_msg.navigating = self.navigating
+        state_msg = RobotState(
+            current_x=msg.x,
+            current_y=msg.y,
+            navigating=self.navigating
+        )
         self.state_pub.publish(state_msg)
 
     def add_waypoint_callback(self, request, response):
-        """Service to add new waypoint"""
+        """Añade un nuevo punto de ruta"""
         self.waypoints.append((request.x, request.y))
         response.success = True
-        self.get_logger().info(f'Waypoint añadido: ({request.x}, {request.y})')
+        self.get_logger().info(f'Waypoint añadido: ({request.x:.2f}, {request.y:.2f})')
         return response
 
     def clear_waypoints_callback(self, request, response):
-        """Service to clear all waypoints"""
+        """Limpia todos los puntos de ruta"""
         self.waypoints.clear()
         if self.navigating:
             self.stop_turtle()
@@ -104,26 +117,40 @@ class NavigatorController(Node):
         self.get_logger().info('Waypoints eliminados')
         return response
 
+    def set_params_callback(self, request, response):
+        """Ajusta los parámetros de control"""
+        if request.linear_gain <= 0 or request.angular_gain <= 0 or request.max_speed <= 0:
+            self.get_logger().error("Valores deben ser positivos")
+            response.success = False
+            return response
+            
+        self.linear_gain = request.linear_gain
+        self.angular_gain = request.angular_gain
+        self.max_speed = request.max_speed
+        self.get_logger().info(f'Parámetros actualizados: Linear={request.linear_gain:.2f}, Angular={request.angular_gain:.2f}, MaxSpeed={request.max_speed:.2f}')
+        response.success = True
+        return response
+
     def stop_turtle(self):
-        """Stop turtle movement"""
+        """Detiene el movimiento de la tortuga"""
         cmd = Twist()
         cmd.linear.x = 0.0
         cmd.angular.z = 0.0
         self.cmd_vel_pub.publish(cmd)
 
     def control_loop(self):
-        """Main control loop"""
+        """Bucle principal de control"""
         if not self.current_pose:
             return
             
         if not self.navigating and self.waypoints:
             self.current_target = self.waypoints.popleft()
             self.navigating = True
-            self.get_logger().info(f'Navegando a: ({self.current_target[0]}, {self.current_target[1]})')
+            self.get_logger().info(f'Navegando a: ({self.current_target[0]:.2f}, {self.current_target[1]:.2f})')
         
         if self.navigating:
             if self.reached_target():
-                self.get_logger().info(f'Objetivo alcanzado: ({self.current_target[0]}, {self.current_target[1]})')
+                self.get_logger().info('Objetivo alcanzado!')
                 self.stop_turtle()
                 self.navigating = False
                 self.current_target = None
@@ -131,14 +158,14 @@ class NavigatorController(Node):
                 
             self.move_to_target()
 
-    def reached_target(self, tolerance=0.1):
-        """Check if target is reached"""
+    def reached_target(self):
+        """Verifica si se alcanzó el objetivo"""
         dx = self.current_target[0] - self.current_pose.x
         dy = self.current_target[1] - self.current_pose.y
-        return math.sqrt(dx**2 + dy**2) < tolerance
+        return math.sqrt(dx**2 + dy**2) < self.target_tolerance
 
     def move_to_target(self):
-        """Calculate and send movement commands"""
+        """Calcula y envía comandos de movimiento"""
         cmd = Twist()
         dx = self.current_target[0] - self.current_pose.x
         dy = self.current_target[1] - self.current_pose.y
@@ -146,15 +173,15 @@ class NavigatorController(Node):
         target_angle = math.atan2(dy, dx)
         
         angle_diff = target_angle - self.current_pose.theta
-        angle_diff = math.atan2(math.sin(angle_diff), math.cos(angle_diff))  # Normalize angle
+        angle_diff = math.atan2(math.sin(angle_diff), math.cos(angle_diff))
         
-        # Proportional control
-        cmd.angular.z = 2.0 * angle_diff
-        cmd.linear.x = distance * 0.5 if distance > 0.1 else 0.0
+        # Control proporcional con parámetros ajustables
+        cmd.angular.z = self.angular_gain * angle_diff
+        cmd.linear.x = self.linear_gain * distance if distance > self.target_tolerance else 0.0
         
-        # Velocity limits
-        cmd.linear.x = min(cmd.linear.x, 2.0)
-        cmd.angular.z = max(min(cmd.angular.z, 2.0), -2.0)
+        # Aplicar límites de velocidad
+        cmd.linear.x = min(cmd.linear.x, self.max_speed)
+        cmd.angular.z = max(min(cmd.angular.z, self.max_speed), -self.max_speed)
         
         self.cmd_vel_pub.publish(cmd)
 

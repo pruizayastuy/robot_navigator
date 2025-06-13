@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotState.msg"
   "srv/AddWaypoint.srv"
   "srv/ClearWaypoints.srv"
+  "srv/SetControlParams.srv"
   DEPENDENCIES std_msgs
 )
 
