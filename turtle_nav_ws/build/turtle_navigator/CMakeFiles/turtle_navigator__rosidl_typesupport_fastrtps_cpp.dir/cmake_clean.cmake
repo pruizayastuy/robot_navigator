@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/target_pose__type_support.cpp.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/target_pose__type_support.cpp.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/add_waypoint__type_support.cpp.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/add_waypoint__type_support.cpp.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/clear_waypoints__type_support.cpp.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/clear_waypoints__type_support.cpp.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/set_control_params__type_support.cpp.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/set_control_params__type_support.cpp.o.d"
+  "libturtle_navigator__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libturtle_navigator__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/robot_state__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/target_pose__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/target_pose__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/add_waypoint__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/clear_waypoints__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/add_waypoint__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/clear_waypoints__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/set_control_params__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/set_control_params__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

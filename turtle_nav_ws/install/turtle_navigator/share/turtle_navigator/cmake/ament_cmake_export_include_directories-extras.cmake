@@ -1,0 +1,1 @@
+/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

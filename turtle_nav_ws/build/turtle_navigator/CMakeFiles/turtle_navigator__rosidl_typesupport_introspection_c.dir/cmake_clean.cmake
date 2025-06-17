@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/robot_state__type_support.c.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/robot_state__type_support.c.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/target_pose__type_support.c.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/target_pose__type_support.c.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/add_waypoint__type_support.c.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/add_waypoint__type_support.c.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/clear_waypoints__type_support.c.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/clear_waypoints__type_support.c.o.d"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/set_control_params__type_support.c.o"
+  "CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/set_control_params__type_support.c.o.d"
+  "libturtle_navigator__rosidl_typesupport_introspection_c.pdb"
+  "libturtle_navigator__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/robot_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/robot_state__type_support.c"
+  "rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/target_pose__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/target_pose__type_support.c"
+  "rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/add_waypoint__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/add_waypoint__type_support.c"
+  "rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/clear_waypoints__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/clear_waypoints__type_support.c"
+  "rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/set_control_params__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/set_control_params__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

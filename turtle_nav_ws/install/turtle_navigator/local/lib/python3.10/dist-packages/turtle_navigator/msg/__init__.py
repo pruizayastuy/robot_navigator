@@ -1,0 +1,1 @@
+/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_generator_py/turtle_navigator/msg/__init__.py

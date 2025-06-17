@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c344816f0cd248c85ea8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "turtle_navigator__py",
+					"jsonFile" : "directory-turtle_navigator__py-846724fdec0cad4b2b0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/turtle_navigator__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turtle_navigator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtle_navigator_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtle_navigator_egg-1855429b4731fbf551cb.json",
+					"name" : "ament_cmake_python_build_turtle_navigator_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_turtle_navigator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_turtle_navigator-ae339dc550f007d9b4b4.json",
+					"name" : "ament_cmake_python_symlink_turtle_navigator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator-bd9bfbbadaea3a37278c.json",
+					"name" : "turtle_navigator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__cpp-0f7e575c4abfa57fb65e.json",
+					"name" : "turtle_navigator__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtle_navigator__py::@8a1180ec345abbcd6ed2",
+					"jsonFile" : "target-turtle_navigator__py-fe1f2ca27cae1eba1bf1.json",
+					"name" : "turtle_navigator__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_generator_c-fc2a614529d31528b12b.json",
+					"name" : "turtle_navigator__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_generator_py-5dfea0811ff902f2c04e.json",
+					"name" : "turtle_navigator__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_c-d28ae0c8b6feb0f8e2ba.json",
+					"name" : "turtle_navigator__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_c__pyext-909234c83e8de827fcde.json",
+					"name" : "turtle_navigator__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_cpp-735f4d88673280104fc3.json",
+					"name" : "turtle_navigator__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_fastrtps_c-dd31bcbd865bf7334c3c.json",
+					"name" : "turtle_navigator__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_fastrtps_c__pyext-d860613fcf6a9f9ecb38.json",
+					"name" : "turtle_navigator__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_fastrtps_cpp-642a9d5469163548fca6.json",
+					"name" : "turtle_navigator__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_introspection_c-f558bb064a7b64fcf107.json",
+					"name" : "turtle_navigator__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_introspection_c__pyext-03dbd5472591c7089392.json",
+					"name" : "turtle_navigator__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator__rosidl_typesupport_introspection_cpp-41119f7ef9f59573914f.json",
+					"name" : "turtle_navigator__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_navigator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_navigator_uninstall-8a259cd65200975656f9.json",
+					"name" : "turtle_navigator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8df44e0820cae87052d4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator",
+		"source" : "/home/pruizayastuy/turtle_nav_ws/src/turtle_navigator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,542 @@
+[0.000000] (-) TimerEvent: {}
+[0.002794] (turtle_navigator) JobQueued: {'identifier': 'turtle_navigator', 'dependencies': OrderedDict()}
+[0.002846] (turtle_navigator) JobStarted: {'identifier': 'turtle_navigator'}
+[0.055158] (turtle_navigator) JobProgress: {'identifier': 'turtle_navigator', 'progress': 'cmake'}
+[0.055361] (turtle_navigator) Command: {'cmd': ['/usr/bin/cmake', '/home/pruizayastuy/turtle_nav_ws/src/turtle_navigator', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator'], 'cwd': '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'pruizayastuy'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1910'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/pruizayastuy/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/pruizayastuy'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/pruizayastuy/turtle_nav_ws'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pruizayastuy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/pruizayastuy/.local/bin:/home/pruizayastuy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_DATA_HOME', '/home/pruizayastuy/.local/share'), ('XDG_CONFIG_HOME', '/home/pruizayastuy/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/pruizayastuy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eaeed27a27.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXPKhMRc/agent.1815'), ('AMENT_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator:/opt/ros/humble')]), 'shell': False}
+[0.103055] (-) TimerEvent: {}
+[0.204341] (-) TimerEvent: {}
+[0.208786] (turtle_navigator) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.304584] (-) TimerEvent: {}
+[0.346778] (turtle_navigator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.366061] (turtle_navigator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.410568] (-) TimerEvent: {}
+[0.528919] (-) TimerEvent: {}
+[0.582066] (turtle_navigator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.591989] (turtle_navigator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.593768] (turtle_navigator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.595971] (turtle_navigator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.605002] (turtle_navigator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.637439] (-) TimerEvent: {}
+[0.748004] (-) TimerEvent: {}
+[0.789265] (turtle_navigator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.789490] (turtle_navigator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.789560] (turtle_navigator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.789624] (turtle_navigator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.806902] (turtle_navigator) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.849087] (-) TimerEvent: {}
+[0.955898] (-) TimerEvent: {}
+[1.047302] (turtle_navigator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.056204] (-) TimerEvent: {}
+[1.144901] (turtle_navigator) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.156736] (-) TimerEvent: {}
+[1.179938] (turtle_navigator) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.188390] (turtle_navigator) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.245128] (turtle_navigator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.253107] (turtle_navigator) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.257153] (-) TimerEvent: {}
+[1.267147] (turtle_navigator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.286498] (turtle_navigator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.314280] (turtle_navigator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.357049] (turtle_navigator) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.357955] (-) TimerEvent: {}
+[1.376764] (turtle_navigator) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.432963] (turtle_navigator) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.461260] (-) TimerEvent: {}
+[1.570584] (-) TimerEvent: {}
+[1.674282] (-) TimerEvent: {}
+[1.775170] (-) TimerEvent: {}
+[1.889701] (-) TimerEvent: {}
+[1.942300] (turtle_navigator) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.998944] (-) TimerEvent: {}
+[2.104712] (-) TimerEvent: {}
+[2.207991] (-) TimerEvent: {}
+[2.313383] (-) TimerEvent: {}
+[2.417578] (-) TimerEvent: {}
+[2.519138] (-) TimerEvent: {}
+[2.522428] (turtle_navigator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.619846] (-) TimerEvent: {}
+[2.722671] (-) TimerEvent: {}
+[2.796925] (turtle_navigator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.827089] (-) TimerEvent: {}
+[2.834777] (turtle_navigator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.837505] (turtle_navigator) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.874210] (turtle_navigator) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.876744] (turtle_navigator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.876993] (turtle_navigator) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.877115] (turtle_navigator) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.916458] (turtle_navigator) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.929776] (-) TimerEvent: {}
+[3.030594] (-) TimerEvent: {}
+[3.031830] (turtle_navigator) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.111690] (turtle_navigator) StdoutLine: {'line': b'-- Generating done\n'}
+[3.135532] (turtle_navigator) StdoutLine: {'line': b'-- Build files have been written to: /home/pruizayastuy/turtle_nav_ws/build/turtle_navigator\n'}
+[3.135783] (-) TimerEvent: {}
+[3.150534] (turtle_navigator) CommandEnded: {'returncode': 0}
+[3.151392] (turtle_navigator) JobProgress: {'identifier': 'turtle_navigator', 'progress': 'build'}
+[3.157147] (turtle_navigator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator', '--', '-j2', '-l2'], 'cwd': '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'pruizayastuy'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1910'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/pruizayastuy/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/pruizayastuy'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/pruizayastuy/turtle_nav_ws'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pruizayastuy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/pruizayastuy/.local/bin:/home/pruizayastuy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_DATA_HOME', '/home/pruizayastuy/.local/share'), ('XDG_CONFIG_HOME', '/home/pruizayastuy/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/pruizayastuy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eaeed27a27.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXPKhMRc/agent.1815'), ('AMENT_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator:/opt/ros/humble')]), 'shell': False}
+[3.246743] (-) TimerEvent: {}
+[3.247136] (turtle_navigator) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.294182] (turtle_navigator) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.350879] (-) TimerEvent: {}
+[3.455848] (-) TimerEvent: {}
+[3.562822] (-) TimerEvent: {}
+[3.667224] (-) TimerEvent: {}
+[3.773558] (-) TimerEvent: {}
+[3.893975] (-) TimerEvent: {}
+[4.012875] (-) TimerEvent: {}
+[4.122793] (-) TimerEvent: {}
+[4.226322] (-) TimerEvent: {}
+[4.331268] (-) TimerEvent: {}
+[4.439040] (-) TimerEvent: {}
+[4.546695] (-) TimerEvent: {}
+[4.655265] (-) TimerEvent: {}
+[4.770716] (-) TimerEvent: {}
+[4.883682] (-) TimerEvent: {}
+[4.986380] (-) TimerEvent: {}
+[5.087783] (-) TimerEvent: {}
+[5.190795] (-) TimerEvent: {}
+[5.217062] (turtle_navigator) StdoutLine: {'line': b'[  3%] Built target turtle_navigator__cpp\n'}
+[5.291247] (-) TimerEvent: {}
+[5.311236] (turtle_navigator) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_turtle_navigator\n'}
+[5.354409] (turtle_navigator) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.404971] (-) TimerEvent: {}
+[5.507761] (-) TimerEvent: {}
+[5.527372] (turtle_navigator) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_c.dir/rosidl_generator_c/turtle_navigator/msg/detail/target_pose__functions.c.o\x1b[0m\n'}
+[5.611811] (-) TimerEvent: {}
+[5.627703] (turtle_navigator) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_c.dir/rosidl_generator_c/turtle_navigator/msg/detail/robot_state__functions.c.o\x1b[0m\n'}
+[5.714572] (-) TimerEvent: {}
+[5.738813] (turtle_navigator) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_c.dir/rosidl_generator_c/turtle_navigator/srv/detail/add_waypoint__functions.c.o\x1b[0m\n'}
+[5.815747] (-) TimerEvent: {}
+[5.841394] (turtle_navigator) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_c.dir/rosidl_generator_c/turtle_navigator/srv/detail/clear_waypoints__functions.c.o\x1b[0m\n'}
+[5.918515] (-) TimerEvent: {}
+[5.964874] (turtle_navigator) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_c.dir/rosidl_generator_c/turtle_navigator/srv/detail/set_control_params__functions.c.o\x1b[0m\n'}
+[6.045681] (-) TimerEvent: {}
+[6.087254] (turtle_navigator) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_navigator/msg/target_pose__type_support.cpp.o\x1b[0m\n'}
+[6.102537] (turtle_navigator) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libturtle_navigator__rosidl_generator_c.so\x1b[0m\n'}
+[6.198795] (-) TimerEvent: {}
+[6.211139] (turtle_navigator) StdoutLine: {'line': b'[ 15%] Built target turtle_navigator__rosidl_generator_c\n'}
+[6.253038] (turtle_navigator) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_navigator/msg/robot_state__type_support.cpp.o\x1b[0m\n'}
+[6.511057] (-) TimerEvent: {}
+[6.612611] (-) TimerEvent: {}
+[6.664961] (turtle_navigator) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.716980] (-) TimerEvent: {}
+[6.822205] (-) TimerEvent: {}
+[6.888208] (turtle_navigator) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_navigator/srv/add_waypoint__type_support.cpp.o\x1b[0m\n'}
+[7.192943] (-) TimerEvent: {}
+[7.227266] (turtle_navigator) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_navigator/srv/clear_waypoints__type_support.cpp.o\x1b[0m\n'}
+[7.385806] (-) TimerEvent: {}
+[7.490278] (-) TimerEvent: {}
+[7.593872] (-) TimerEvent: {}
+[7.700567] (-) TimerEvent: {}
+[7.743916] (turtle_navigator) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/target_pose__type_support.cpp.o\x1b[0m\n'}
+[7.766939] (turtle_navigator) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_navigator/srv/set_control_params__type_support.cpp.o\x1b[0m\n'}
+[7.805710] (-) TimerEvent: {}
+[8.075060] (-) TimerEvent: {}
+[8.177141] (turtle_navigator) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_navigator__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.177535] (-) TimerEvent: {}
+[8.285154] (-) TimerEvent: {}
+[8.311287] (turtle_navigator) StdoutLine: {'line': b'[ 26%] Built target turtle_navigator__rosidl_typesupport_cpp\n'}
+[8.378495] (turtle_navigator) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.424135] (-) TimerEvent: {}
+[8.517990] (turtle_navigator) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o\x1b[0m\n'}
+[8.525781] (-) TimerEvent: {}
+[8.633055] (-) TimerEvent: {}
+[8.754076] (-) TimerEvent: {}
+[8.864100] (-) TimerEvent: {}
+[8.967515] (-) TimerEvent: {}
+[9.071303] (-) TimerEvent: {}
+[9.174075] (-) TimerEvent: {}
+[9.276079] (-) TimerEvent: {}
+[9.383705] (-) TimerEvent: {}
+[9.425767] (turtle_navigator) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/add_waypoint__type_support.cpp.o\x1b[0m\n'}
+[9.493022] (-) TimerEvent: {}
+[9.593903] (-) TimerEvent: {}
+[9.606978] (turtle_navigator) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/target_pose__type_support.c.o\x1b[0m\n'}
+[9.653195] (turtle_navigator) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/robot_state__type_support.c.o\x1b[0m\n'}
+[9.733404] (-) TimerEvent: {}
+[9.767976] (turtle_navigator) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/add_waypoint__type_support.c.o\x1b[0m\n'}
+[9.833590] (-) TimerEvent: {}
+[9.884870] (turtle_navigator) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/clear_waypoints__type_support.c.o\x1b[0m\n'}
+[9.939104] (-) TimerEvent: {}
+[9.989887] (turtle_navigator) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_navigator/srv/detail/set_control_params__type_support.c.o\x1b[0m\n'}
+[10.039813] (-) TimerEvent: {}
+[10.085697] (turtle_navigator) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libturtle_navigator__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.144566] (-) TimerEvent: {}
+[10.246754] (turtle_navigator) StdoutLine: {'line': b'[ 41%] Built target turtle_navigator__rosidl_typesupport_introspection_c\n'}
+[10.247113] (-) TimerEvent: {}
+[10.303792] (turtle_navigator) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.376121] (-) TimerEvent: {}
+[10.484002] (-) TimerEvent: {}
+[10.486059] (turtle_navigator) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/clear_waypoints__type_support.cpp.o\x1b[0m\n'}
+[10.597683] (-) TimerEvent: {}
+[10.729863] (-) TimerEvent: {}
+[10.832926] (-) TimerEvent: {}
+[10.940933] (-) TimerEvent: {}
+[11.054492] (-) TimerEvent: {}
+[11.176314] (-) TimerEvent: {}
+[11.278138] (-) TimerEvent: {}
+[11.326578] (turtle_navigator) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_navigator/msg/target_pose__type_support.cpp.o\x1b[0m\n'}
+[11.334041] (turtle_navigator) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_navigator/srv/detail/dds_fastrtps/set_control_params__type_support.cpp.o\x1b[0m\n'}
+[11.381216] (-) TimerEvent: {}
+[11.426254] (turtle_navigator) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_navigator/msg/robot_state__type_support.cpp.o\x1b[0m\n'}
+[11.482607] (-) TimerEvent: {}
+[11.539709] (turtle_navigator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_navigator/srv/add_waypoint__type_support.cpp.o\x1b[0m\n'}
+[11.592347] (-) TimerEvent: {}
+[11.654361] (turtle_navigator) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_navigator/srv/clear_waypoints__type_support.cpp.o\x1b[0m\n'}
+[11.733954] (-) TimerEvent: {}
+[11.853004] (-) TimerEvent: {}
+[11.964311] (-) TimerEvent: {}
+[11.982367] (turtle_navigator) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_navigator/srv/set_control_params__type_support.cpp.o\x1b[0m\n'}
+[12.067306] (-) TimerEvent: {}
+[12.118600] (turtle_navigator) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_navigator__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.170187] (-) TimerEvent: {}
+[12.254869] (turtle_navigator) StdoutLine: {'line': b'[ 55%] Built target turtle_navigator__rosidl_typesupport_c\n'}
+[12.271160] (-) TimerEvent: {}
+[12.294221] (turtle_navigator) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.380136] (-) TimerEvent: {}
+[12.412739] (turtle_navigator) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_navigator__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.523979] (-) TimerEvent: {}
+[12.630606] (-) TimerEvent: {}
+[12.661925] (turtle_navigator) StdoutLine: {'line': b'[ 58%] Built target turtle_navigator__rosidl_typesupport_fastrtps_cpp\n'}
+[12.734019] (-) TimerEvent: {}
+[12.902823] (-) TimerEvent: {}
+[13.012328] (-) TimerEvent: {}
+[13.186991] (-) TimerEvent: {}
+[13.265221] (turtle_navigator) StdoutLine: {'line': b'running egg_info\n'}
+[13.268279] (turtle_navigator) StdoutLine: {'line': b'creating turtle_navigator.egg-info\n'}
+[13.268456] (turtle_navigator) StdoutLine: {'line': b'writing turtle_navigator.egg-info/PKG-INFO\n'}
+[13.268550] (turtle_navigator) StdoutLine: {'line': b'writing dependency_links to turtle_navigator.egg-info/dependency_links.txt\n'}
+[13.270961] (turtle_navigator) StdoutLine: {'line': b'writing top-level names to turtle_navigator.egg-info/top_level.txt\n'}
+[13.271695] (turtle_navigator) StdoutLine: {'line': b"writing manifest file 'turtle_navigator.egg-info/SOURCES.txt'\n"}
+[13.273086] (turtle_navigator) StdoutLine: {'line': b"reading manifest file 'turtle_navigator.egg-info/SOURCES.txt'\n"}
+[13.273169] (turtle_navigator) StdoutLine: {'line': b"writing manifest file 'turtle_navigator.egg-info/SOURCES.txt'\n"}
+[13.295582] (-) TimerEvent: {}
+[13.316309] (turtle_navigator) StdoutLine: {'line': b'[ 58%] Built target ament_cmake_python_build_turtle_navigator_egg\n'}
+[13.366136] (turtle_navigator) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.422848] (-) TimerEvent: {}
+[13.427734] (turtle_navigator) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_navigator/msg/detail/target_pose__type_support.cpp.o\x1b[0m\n'}
+[13.527241] (-) TimerEvent: {}
+[13.873447] (-) TimerEvent: {}
+[13.906685] (turtle_navigator) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_navigator/msg/detail/robot_state__type_support.cpp.o\x1b[0m\n'}
+[13.991915] (-) TimerEvent: {}
+[14.093477] (-) TimerEvent: {}
+[14.195755] (-) TimerEvent: {}
+[14.291408] (turtle_navigator) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_navigator/msg/detail/target_pose__type_support_c.cpp.o\x1b[0m\n'}
+[14.296151] (-) TimerEvent: {}
+[14.503224] (-) TimerEvent: {}
+[14.549456] (turtle_navigator) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_navigator/srv/detail/add_waypoint__type_support.cpp.o\x1b[0m\n'}
+[14.605471] (-) TimerEvent: {}
+[14.786538] (-) TimerEvent: {}
+[14.848125] (turtle_navigator) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_navigator/msg/detail/robot_state__type_support_c.cpp.o\x1b[0m\n'}
+[15.104978] (-) TimerEvent: {}
+[15.160317] (turtle_navigator) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_navigator/srv/detail/clear_waypoints__type_support.cpp.o\x1b[0m\n'}
+[15.284948] (-) TimerEvent: {}
+[15.343783] (turtle_navigator) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_navigator/srv/detail/add_waypoint__type_support_c.cpp.o\x1b[0m\n'}
+[15.527832] (-) TimerEvent: {}
+[15.665794] (-) TimerEvent: {}
+[15.755959] (turtle_navigator) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_navigator/srv/detail/set_control_params__type_support.cpp.o\x1b[0m\n'}
+[15.772742] (-) TimerEvent: {}
+[15.881634] (-) TimerEvent: {}
+[15.985290] (-) TimerEvent: {}
+[16.147497] (-) TimerEvent: {}
+[16.250612] (-) TimerEvent: {}
+[16.290600] (turtle_navigator) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_navigator/srv/detail/clear_waypoints__type_support_c.cpp.o\x1b[0m\n'}
+[16.354027] (-) TimerEvent: {}
+[16.457573] (-) TimerEvent: {}
+[16.606176] (-) TimerEvent: {}
+[16.669234] (turtle_navigator) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_navigator__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.710514] (-) TimerEvent: {}
+[16.812197] (-) TimerEvent: {}
+[16.930628] (-) TimerEvent: {}
+[16.992098] (turtle_navigator) StdoutLine: {'line': b'[ 76%] Built target turtle_navigator__rosidl_typesupport_introspection_cpp\n'}
+[16.995292] (turtle_navigator) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_navigator/srv/detail/set_control_params__type_support_c.cpp.o\x1b[0m\n'}
+[17.036928] (-) TimerEvent: {}
+[17.141793] (-) TimerEvent: {}
+[17.397991] (-) TimerEvent: {}
+[17.437001] (turtle_navigator) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_navigator__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.507800] (-) TimerEvent: {}
+[17.610522] (-) TimerEvent: {}
+[17.665996] (turtle_navigator) StdoutLine: {'line': b'[ 79%] Built target turtle_navigator__rosidl_typesupport_fastrtps_c\n'}
+[17.711166] (-) TimerEvent: {}
+[17.722687] (turtle_navigator) StdoutLine: {'line': b'[ 79%] Built target turtle_navigator\n'}
+[17.808781] (turtle_navigator) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.811866] (-) TimerEvent: {}
+[17.918532] (-) TimerEvent: {}
+[18.054672] (-) TimerEvent: {}
+[18.157102] (-) TimerEvent: {}
+[18.264714] (-) TimerEvent: {}
+[18.386236] (-) TimerEvent: {}
+[18.521701] (-) TimerEvent: {}
+[18.625536] (-) TimerEvent: {}
+[18.759245] (-) TimerEvent: {}
+[18.890426] (-) TimerEvent: {}
+[18.993012] (-) TimerEvent: {}
+[19.098250] (-) TimerEvent: {}
+[19.161006] (turtle_navigator) StdoutLine: {'line': b'[ 80%] Built target turtle_navigator__py\n'}
+[19.198661] (-) TimerEvent: {}
+[19.238008] (turtle_navigator) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_py.dir/rosidl_generator_py/turtle_navigator/msg/_target_pose_s.c.o\x1b[0m\n'}
+[19.297203] (turtle_navigator) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_py.dir/rosidl_generator_py/turtle_navigator/msg/_robot_state_s.c.o\x1b[0m\n'}
+[19.303895] (-) TimerEvent: {}
+[19.411619] (-) TimerEvent: {}
+[19.523306] (-) TimerEvent: {}
+[19.620355] (turtle_navigator) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_py.dir/rosidl_generator_py/turtle_navigator/srv/_add_waypoint_s.c.o\x1b[0m\n'}
+[19.626035] (-) TimerEvent: {}
+[19.666767] (turtle_navigator) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_py.dir/rosidl_generator_py/turtle_navigator/srv/_clear_waypoints_s.c.o\x1b[0m\n'}
+[19.806546] (-) TimerEvent: {}
+[19.867843] (turtle_navigator) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_generator_py.dir/rosidl_generator_py/turtle_navigator/srv/_set_control_params_s.c.o\x1b[0m\n'}
+[19.917525] (-) TimerEvent: {}
+[20.019260] (-) TimerEvent: {}
+[20.038567] (turtle_navigator) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_navigator/libturtle_navigator__rosidl_generator_py.so\x1b[0m\n'}
+[20.115606] (turtle_navigator) StdoutLine: {'line': b'[ 90%] Built target turtle_navigator__rosidl_generator_py\n'}
+[20.120867] (-) TimerEvent: {}
+[20.166572] (turtle_navigator) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_navigator/_turtle_navigator_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.215819] (turtle_navigator) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_navigator/_turtle_navigator_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.221231] (-) TimerEvent: {}
+[20.337218] (-) TimerEvent: {}
+[20.370108] (turtle_navigator) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_navigator/turtle_navigator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.441538] (-) TimerEvent: {}
+[20.468925] (turtle_navigator) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_navigator/turtle_navigator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.496228] (turtle_navigator) StdoutLine: {'line': b'[ 96%] Built target turtle_navigator__rosidl_typesupport_introspection_c__pyext\n'}
+[20.541591] (-) TimerEvent: {}
+[20.602973] (turtle_navigator) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/turtle_navigator__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_navigator/_turtle_navigator_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.615251] (turtle_navigator) StdoutLine: {'line': b'[ 98%] Built target turtle_navigator__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.642815] (-) TimerEvent: {}
+[20.743966] (-) TimerEvent: {}
+[20.840081] (turtle_navigator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_navigator/turtle_navigator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.845371] (-) TimerEvent: {}
+[20.909997] (turtle_navigator) StdoutLine: {'line': b'[100%] Built target turtle_navigator__rosidl_typesupport_c__pyext\n'}
+[20.946497] (-) TimerEvent: {}
+[20.955506] (turtle_navigator) CommandEnded: {'returncode': 0}
+[20.956656] (turtle_navigator) JobProgress: {'identifier': 'turtle_navigator', 'progress': 'install'}
+[20.988819] (turtle_navigator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator'], 'cwd': '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'pruizayastuy'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1910'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XDG_CACHE_HOME', '/home/pruizayastuy/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/pruizayastuy'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/pruizayastuy/turtle_nav_ws'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pruizayastuy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/home/pruizayastuy/.local/bin:/home/pruizayastuy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'lxqt-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XDG_DATA_HOME', '/home/pruizayastuy/.local/share'), ('XDG_CONFIG_HOME', '/home/pruizayastuy/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/pruizayastuy/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-eaeed27a27.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXPKhMRc/agent.1815'), ('AMENT_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'LXQt'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('XDG_VTNR', '1'), ('PWD', '/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator:/opt/ros/humble')]), 'shell': False}
+[21.009195] (turtle_navigator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.011206] (turtle_navigator) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.013412] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/ament_index/resource_index/rosidl_interfaces/turtle_navigator\n'}
+[21.033591] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__functions.h\n'}
+[21.046754] (-) TimerEvent: {}
+[21.048192] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__struct.h\n'}
+[21.072909] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__type_support.h\n'}
+[21.096020] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__functions.h\n'}
+[21.112183] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__struct.h\n'}
+[21.131565] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__type_support.h\n'}
+[21.147162] (-) TimerEvent: {}
+[21.150280] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/robot_state.h\n'}
+[21.177803] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.215491] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/target_pose.h\n'}
+[21.239631] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/add_waypoint.h\n'}
+[21.248489] (-) TimerEvent: {}
+[21.272852] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/clear_waypoints.h\n'}
+[21.314403] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__functions.h\n'}
+[21.345480] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__struct.h\n'}
+[21.348682] (-) TimerEvent: {}
+[21.366472] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__type_support.h\n'}
+[21.384271] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__functions.h\n'}
+[21.401999] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__struct.h\n'}
+[21.418744] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__type_support.h\n'}
+[21.432234] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__functions.h\n'}
+[21.450663] (-) TimerEvent: {}
+[21.455568] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__struct.h\n'}
+[21.470949] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__type_support.h\n'}
+[21.488969] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/set_control_params.h\n'}
+[21.508161] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/library_path.sh\n'}
+[21.526992] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/library_path.dsv\n'}
+[21.551341] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h\n'}
+[21.551690] (-) TimerEvent: {}
+[21.576951] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[21.594774] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.618982] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[21.635415] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__rosidl_typesupport_fastrtps_c.h\n'}
+[21.652872] (-) TimerEvent: {}
+[21.656471] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__rosidl_typesupport_fastrtps_c.h\n'}
+[21.671259] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__builder.hpp\n'}
+[21.695251] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__struct.hpp\n'}
+[21.711567] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__traits.hpp\n'}
+[21.733085] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__type_support.hpp\n'}
+[21.754130] (-) TimerEvent: {}
+[21.757950] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__builder.hpp\n'}
+[21.783547] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__struct.hpp\n'}
+[21.837381] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__traits.hpp\n'}
+[21.864863] (-) TimerEvent: {}
+[21.869821] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__type_support.hpp\n'}
+[21.887712] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/robot_state.hpp\n'}
+[21.904323] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.920292] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/target_pose.hpp\n'}
+[21.941331] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/add_waypoint.hpp\n'}
+[21.961504] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/clear_waypoints.hpp\n'}
+[21.971867] (-) TimerEvent: {}
+[21.988767] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__builder.hpp\n'}
+[22.009318] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__struct.hpp\n'}
+[22.025400] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__traits.hpp\n'}
+[22.041295] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__type_support.hpp\n'}
+[22.063188] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__builder.hpp\n'}
+[22.075307] (-) TimerEvent: {}
+[22.083988] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__struct.hpp\n'}
+[22.105433] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__traits.hpp\n'}
+[22.129310] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__type_support.hpp\n'}
+[22.146154] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__builder.hpp\n'}
+[22.177053] (-) TimerEvent: {}
+[22.180837] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__struct.hpp\n'}
+[22.207207] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__traits.hpp\n'}
+[22.226662] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__type_support.hpp\n'}
+[22.236669] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/set_control_params.hpp\n'}
+[22.253054] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.270887] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.284982] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[22.285172] (-) TimerEvent: {}
+[22.302325] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.327984] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.342137] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[22.353838] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__rosidl_typesupport_introspection_c.h\n'}
+[22.370466] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__rosidl_typesupport_introspection_c.h\n'}
+[22.384816] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[22.385494] (-) TimerEvent: {}
+[22.406704] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__rosidl_typesupport_introspection_c.h\n'}
+[22.420102] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__rosidl_typesupport_introspection_c.h\n'}
+[22.440766] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__rosidl_typesupport_introspection_c.h\n'}
+[22.458383] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.475949] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/msg/detail/target_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.485913] (-) TimerEvent: {}
+[22.491685] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/add_waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.511372] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/clear_waypoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.530107] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/include/turtle_navigator/turtle_navigator/srv/detail/set_control_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[22.553514] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/pythonpath.sh\n'}
+[22.574662] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/pythonpath.dsv\n'}
+[22.587274] (-) TimerEvent: {}
+[22.600312] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[22.618048] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[22.632985] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[22.654112] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[22.673903] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/__init__.py\n'}
+[22.692349] (-) TimerEvent: {}
+[22.694827] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/_turtle_navigator_s.ep.rosidl_typesupport_c.c\n'}
+[22.721305] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/_turtle_navigator_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[22.745165] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/_turtle_navigator_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[22.786508] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/libturtle_navigator__rosidl_generator_py.so\n'}
+[22.793394] (-) TimerEvent: {}
+[22.803176] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/__init__.py\n'}
+[22.852914] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/_robot_state.py\n'}
+[22.863345] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/_robot_state_s.c\n'}
+[22.880331] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/_target_pose.py\n'}
+[22.895730] (-) TimerEvent: {}
+[22.896063] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/_target_pose_s.c\n'}
+[22.917414] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/__init__.py\n'}
+[22.967422] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_add_waypoint.py\n'}
+[22.999835] (-) TimerEvent: {}
+[23.016749] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_add_waypoint_s.c\n'}
+[23.058837] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_clear_waypoints.py\n'}
+[23.104360] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_clear_waypoints_s.c\n'}
+[23.104618] (-) TimerEvent: {}
+[23.131917] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_set_control_params.py\n'}
+[23.155560] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_set_control_params_s.c\n'}
+[23.177658] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/turtle_navigator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.196064] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/turtle_navigator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.209064] (-) TimerEvent: {}
+[23.211544] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/turtle_navigator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.226280] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/turtle_navigator_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.226534] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/turtle_navigator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.227252] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/turtle_navigator_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.227393] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/msg/TargetPose.idl\n'}
+[23.245289] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/msg/RobotState.idl\n'}
+[23.307431] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/AddWaypoint.idl\n'}
+[23.308903] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/ClearWaypoints.idl\n'}
+[23.309084] (-) TimerEvent: {}
+[23.326404] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/SetControlParams.idl\n'}
+[23.353270] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/msg/TargetPose.msg\n'}
+[23.389528] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/msg/RobotState.msg\n'}
+[23.410609] (-) TimerEvent: {}
+[23.428902] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/AddWaypoint.srv\n'}
+[23.460976] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/AddWaypoint_Request.msg\n'}
+[23.486961] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/AddWaypoint_Response.msg\n'}
+[23.512485] (-) TimerEvent: {}
+[23.521012] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/ClearWaypoints.srv\n'}
+[23.541520] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/ClearWaypoints_Request.msg\n'}
+[23.573046] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/ClearWaypoints_Response.msg\n'}
+[23.574535] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/SetControlParams.srv\n'}
+[23.613755] (-) TimerEvent: {}
+[23.619512] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/SetControlParams_Request.msg\n'}
+[23.684199] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/SetControlParams_Response.msg\n'}
+[23.717132] (-) TimerEvent: {}
+[23.724786] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/msg/RobotState.msg\n'}
+[23.728291] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/msg/TargetPose.msg\n'}
+[23.728707] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/AddWaypoint.srv\n'}
+[23.728830] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/ClearWaypoints.srv\n'}
+[23.728921] (turtle_navigator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/srv/SetControlParams.srv\n'}
+[23.729191] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/ament_index/resource_index/package_run_dependencies/turtle_navigator\n'}
+[23.748878] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/ament_index/resource_index/parent_prefix_path/turtle_navigator\n'}
+[23.767801] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/ament_prefix_path.sh\n'}
+[23.818190] (-) TimerEvent: {}
+[23.823774] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/ament_prefix_path.dsv\n'}
+[23.873378] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/path.sh\n'}
+[23.913990] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/environment/path.dsv\n'}
+[23.919064] (-) TimerEvent: {}
+[23.954279] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/local_setup.bash\n'}
+[23.983214] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/local_setup.sh\n'}
+[24.003784] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/local_setup.zsh\n'}
+[24.019574] (-) TimerEvent: {}
+[24.021219] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/local_setup.dsv\n'}
+[24.042198] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/package.dsv\n'}
+[24.078634] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/ament_index/resource_index/packages/turtle_navigator\n'}
+[24.108495] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/rosidl_cmake-extras.cmake\n'}
+[24.124007] (-) TimerEvent: {}
+[24.154243] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.160245] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.187517] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.203154] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.236845] (-) TimerEvent: {}
+[24.255463] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.272534] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.300088] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigatorConfig.cmake\n'}
+[24.320983] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigatorConfig-version.cmake\n'}
+[24.339158] (-) TimerEvent: {}
+[24.355646] (turtle_navigator) StdoutLine: {'line': b'-- Symlinking: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/package.xml\n'}
+[24.386511] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_generator_c.so\n'}
+[24.386840] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_generator_c.so" to ""\n'}
+[24.389727] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_fastrtps_c.so\n'}
+[24.389923] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.389994] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.392788] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.392946] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_introspection_c.so\n'}
+[24.393009] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.393063] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_c.so\n'}
+[24.393120] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_c.so" to ""\n'}
+[24.393209] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_introspection_cpp.so\n'}
+[24.393265] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.397980] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_cpp.so\n'}
+[24.398716] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_typesupport_cpp.so" to ""\n'}
+[24.444978] (-) TimerEvent: {}
+[24.465034] (turtle_navigator) StdoutLine: {'line': b"Listing '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator'...\n"}
+[24.465683] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/__init__.py'...\n"}
+[24.465973] (turtle_navigator) StdoutLine: {'line': b"Listing '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg'...\n"}
+[24.466172] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/__init__.py'...\n"}
+[24.466314] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/_robot_state.py'...\n"}
+[24.468788] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/msg/_target_pose.py'...\n"}
+[24.468880] (turtle_navigator) StdoutLine: {'line': b"Listing '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv'...\n"}
+[24.469008] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/__init__.py'...\n"}
+[24.469129] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_add_waypoint.py'...\n"}
+[24.469252] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_clear_waypoints.py'...\n"}
+[24.469536] (turtle_navigator) StdoutLine: {'line': b"Compiling '/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/local/lib/python3.10/dist-packages/turtle_navigator/srv/_set_control_params.py'...\n"}
+[24.469631] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_generator_py.so\n'}
+[24.475091] (turtle_navigator) StdoutLine: {'line': b'-- Set runtime path of "/home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/libturtle_navigator__rosidl_generator_py.so" to ""\n'}
+[24.475287] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/turtle_navigator/navigator_controller\n'}
+[24.475345] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/lib/turtle_navigator/waypoint_commander\n'}
+[24.475394] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_generator_cExport.cmake\n'}
+[24.475446] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.475498] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.475546] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.475596] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_generator_cppExport.cmake\n'}
+[24.475677] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.475730] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.475781] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.475845] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.475901] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_cExport.cmake\n'}
+[24.475951] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.476001] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.476049] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.476098] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_cppExport.cmake\n'}
+[24.476159] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/turtle_navigator__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.476401] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_generator_pyExport.cmake\n'}
+[24.477929] (turtle_navigator) StdoutLine: {'line': b'-- Installing: /home/pruizayastuy/turtle_nav_ws/install/turtle_navigator/share/turtle_navigator/cmake/export_turtle_navigator__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.489098] (turtle_navigator) CommandEnded: {'returncode': 0}
+[24.545088] (-) TimerEvent: {}
+[24.576153] (turtle_navigator) JobEnded: {'identifier': 'turtle_navigator', 'rc': 0}
+[24.578511] (-) EventReactorShutdown: {}

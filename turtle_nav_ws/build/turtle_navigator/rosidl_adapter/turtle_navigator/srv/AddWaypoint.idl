@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_navigator/srv/AddWaypoint.srv
+// generated code does not contain a copyright notice
+
+
+module turtle_navigator {
+  module srv {
+    struct AddWaypoint_Request {
+      float x;
+
+      float y;
+    };
+    struct AddWaypoint_Response {
+      boolean success;
+    };
+  };
+};

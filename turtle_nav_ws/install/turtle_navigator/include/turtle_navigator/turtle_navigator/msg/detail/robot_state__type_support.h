@@ -1,0 +1,1 @@
+/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_generator_c/turtle_navigator/msg/detail/robot_state__type_support.h

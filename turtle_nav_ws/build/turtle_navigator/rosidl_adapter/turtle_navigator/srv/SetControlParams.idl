@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_navigator/srv/SetControlParams.srv
+// generated code does not contain a copyright notice
+
+
+module turtle_navigator {
+  module srv {
+    struct SetControlParams_Request {
+      float linear_gain;
+
+      float angular_gain;
+
+      float max_speed;
+    };
+    struct SetControlParams_Response {
+      boolean success;
+    };
+  };
+};

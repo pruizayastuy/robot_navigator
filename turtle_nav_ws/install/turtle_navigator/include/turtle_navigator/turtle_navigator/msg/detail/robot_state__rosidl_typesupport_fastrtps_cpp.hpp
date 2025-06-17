@@ -1,0 +1,1 @@
+/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp

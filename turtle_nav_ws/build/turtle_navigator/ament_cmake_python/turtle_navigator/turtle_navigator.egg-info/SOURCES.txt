@@ -1,0 +1,6 @@
+setup.py
+turtle_navigator/__init__.py
+turtle_navigator.egg-info/PKG-INFO
+turtle_navigator.egg-info/SOURCES.txt
+turtle_navigator.egg-info/dependency_links.txt
+turtle_navigator.egg-info/top_level.txt

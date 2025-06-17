@@ -1,0 +1,1 @@
+/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_typesupport_fastrtps_c/turtle_navigator/srv/detail/add_waypoint__rosidl_typesupport_fastrtps_c.h
