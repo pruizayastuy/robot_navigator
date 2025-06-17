@@ -1,5 +1,0 @@
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_adapter/turtle_navigator:msg/TargetPose.idl
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_adapter/turtle_navigator:msg/RobotState.idl
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_adapter/turtle_navigator:srv/AddWaypoint.idl
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_adapter/turtle_navigator:srv/ClearWaypoints.idl
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_adapter/turtle_navigator:srv/SetControlParams.idl

@@ -1,1 +1,0 @@
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_typesupport_introspection_c/turtle_navigator/msg/detail/target_pose__rosidl_typesupport_introspection_c.h

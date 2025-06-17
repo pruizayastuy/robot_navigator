@@ -1,1 +1,0 @@
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_typesupport_introspection_cpp/turtle_navigator/srv/detail/set_control_params__rosidl_typesupport_introspection_cpp.hpp

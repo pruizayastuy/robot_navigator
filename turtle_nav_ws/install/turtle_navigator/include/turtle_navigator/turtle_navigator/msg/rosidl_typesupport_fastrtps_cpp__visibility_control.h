@@ -1,1 +1,0 @@
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_typesupport_fastrtps_cpp/turtle_navigator/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

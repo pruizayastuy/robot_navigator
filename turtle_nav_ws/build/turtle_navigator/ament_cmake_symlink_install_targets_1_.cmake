@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_generator_py/turtle_navigator/turtle_navigator_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "turtle_navigator__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_navigator")

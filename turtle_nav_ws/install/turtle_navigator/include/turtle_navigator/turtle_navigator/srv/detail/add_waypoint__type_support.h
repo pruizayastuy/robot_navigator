@@ -1,1 +1,0 @@
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/rosidl_generator_c/turtle_navigator/srv/detail/add_waypoint__type_support.h

@@ -1,1 +1,0 @@
-/home/pruizayastuy/turtle_nav_ws/build/turtle_navigator/ament_cmake_environment_hooks/local_setup.sh
